@@ -27,14 +27,14 @@ public class Patient {
     private LocalDate dateOfBirth;
 
     @NotNull
-    private LocalDate registerDate;
+    private LocalDate registeredDate;
 
     public LocalDate getRegisterDate() {
-        return registerDate;
+        return registeredDate;
     }
 
     public void setRegisterDate(LocalDate registerDate) {
-        this.registerDate = registerDate;
+        this.registeredDate = registerDate;
     }
 
     public LocalDate getDateOfBirth() {
