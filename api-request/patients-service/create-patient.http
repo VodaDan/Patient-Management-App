@@ -4,10 +4,9 @@ Content-Type: application/json
 
 {
     "name": "Popescu Ion",
-    "email": "",
+    "email": "myEmail@yahoo.com",
     "address": "my address 20",
     "dateOfBirth": "1995-12-20",
-    "registeredDate": "1999-01-20",
-    "Gender": "male"
+    "registeredDate": "1999-01-20"
 }
 ###
