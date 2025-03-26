@@ -29,11 +29,11 @@ public class Patient {
     @NotNull
     private LocalDate registeredDate;
 
-    public LocalDate getRegisterDate() {
+    public LocalDate getRegisteredDate() {
         return registeredDate;
     }
 
-    public void setRegisterDate(LocalDate registerDate) {
+    public void setRegisteredDate(LocalDate registerDate) {
         this.registeredDate = registerDate;
     }
 
