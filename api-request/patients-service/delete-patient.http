@@ -1,3 +1,3 @@
 ### DELETE request to delete a patient entity
-DELETE http://localhost:4000/123e4567-e89b-12d3-a456-426614174000
+DELETE http://localhost:4000/patients/b1880e24-2c95-4ece-926c-aa10470d6d8d
 ###
