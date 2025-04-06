@@ -6,4 +6,4 @@ GRPC localhost:9001/BillingService/CreateBillingAccount
     "email": "donuts@gmail.com"
 }
 
-### addressOfTheSerjver:port/ServiceName/Rpc Method
+### addressOfTheServer:port/ServiceName/Rpc Method
