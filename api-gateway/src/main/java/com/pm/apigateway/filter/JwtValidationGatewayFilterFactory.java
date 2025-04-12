@@ -22,6 +22,7 @@ public class JwtValidationGatewayFilterFactory extends AbstractGatewayFilterFact
 
     @Override
     public GatewayFilter apply(Object config) {
+        // Return a filter that will execute on every request going through the gateway
         return ((exchange, chain) ->{
            String token = exchange.getRequest().getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
 
