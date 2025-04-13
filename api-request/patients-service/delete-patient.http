@@ -1,3 +1,4 @@
 ### DELETE request to delete a patient entity
-DELETE http://localhost:4000/patients/99f79db6-827f-43d9-8c4d-762959eaf0da
+DELETE http://lb-553267aa.elb.localhost.localstack.cloud:4004/api/patients/99f79db6-827f-43d9-8c4d-762959eaf0da
+Authorization: Bearer {{token}}
 ###

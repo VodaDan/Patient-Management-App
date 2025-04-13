@@ -1,5 +1,6 @@
 ### POST request to create a new patient
 POST http://lb-553267aa.elb.localhost.localstack.cloud:4004/api/patients
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
